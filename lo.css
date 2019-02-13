@@ -1,0 +1,41 @@
+div.gallery{
+    width:182px;
+    border: 1px solid #000;
+    float: left; 
+    margin: 2px;
+    transition: transform 2s,border-radius 2s,background 2s ,margin-top 2s;
+}
+div.gallery img{
+    width: 180px;
+    height:180px;
+    opacity: 0.5;  
+}
+div.gallery:hover{
+    border-radius: 10px;
+    border:1px solid rebeccapurple;
+    opacity: 0.5;
+    background:lightsalmon;
+    margin-top: 100px;
+    transform:  rotateZ(180deg); 
+
+}
+div.gallery p{
+    color: red;
+    font-size: 18px;
+    font-family: fantasy;
+    text-align: center;
+    display: block; 
+}
+div.gallery img:hover{
+    /* opacity: 1.0; */
+    display: block;
+     
+}
+div.gallery p{
+    text-align: center;
+    padding:15px;
+    display: none;
+}
+div.gallery:hover p{
+    display:block;
+}
